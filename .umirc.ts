@@ -6,7 +6,16 @@ export default defineConfig({
     devServer: {
         port: 8001,
     },
+    logo: '/images/icon.png',
     navs: [
+        {
+            title: 'Php',
+            path: '/php',
+        },
+        {
+            title: 'Nginx',
+            path: '/nginx',
+        },
         {
             title: 'Poppy Framework',
             path: '/poppy',

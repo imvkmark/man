@@ -1,10 +1,14 @@
 ---
 hero:
-  title: Site Name
-  desc: dumi site app example
+  title: WuliCode 知识库
+  desc: 搜集的常用知识内容, 工作中系统整理的内容
   actions:
-    - text: Getting Started
-      link: /getting-started
+    - text: Nginx
+      link: /nginx
+    - text: Php
+      link: /php
+    - text: Poppy
+      link: /poppy
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Feature 1
