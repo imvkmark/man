@@ -53,7 +53,7 @@ $ php artisan system:permission init
 在控制器中定义变量 `self::$permission`, 并赋值全局权限,
 则可以对控制器进行权限控制
 
-``` {.php}
+```php
 /**
  * 广告位管理
  */
@@ -76,7 +76,7 @@ class PlaceController extends InitController
 
 **策略中权限的定义**
 
-``` {.php}
+```php
 /**
  * 用户角色策略
  */

@@ -53,7 +53,7 @@ $ phplint /path/of/code -c /framework/path/.phplint.yml
 
 在 `providers` 部分加入
 
-``` {.php}
+```php
 'providers' => [
     // ...
     Collective\Html\HtmlServiceProvider::class,    
@@ -75,7 +75,7 @@ php artisan poppy:optimize
 
 然后在 `app.php` 的 `aliases` 部分加入
 
-``` {.php}
+```php
 'aliases' => [
     // ...
     'Html' => Collective\Html\HtmlFacade::class,

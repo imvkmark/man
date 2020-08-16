@@ -76,7 +76,7 @@ class BossImListener
 
 事件监听放在 `{module}/src/ServiceProvider.php` 文件中, 如下定义
 
-``` {.php}
+```php
 protected $listens = [
     // 这里使用 子命名空间 来引入
     // 这里不使用 字符串 命名

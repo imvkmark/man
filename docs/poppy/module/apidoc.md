@@ -148,7 +148,7 @@ apiName  : HomeCheckVerification
 返回的类型值, 参数值, 说明必须对齐
 返回的参数值和真正返回的内容值必须填写完整
 
-``` {.php}
+```php
 /**
  * @api                  {get} /api_prefix/version [O]检测新版本(Android)
  * @apiVersion           1.0.0
@@ -218,7 +218,7 @@ F). 列表为空也需要返回分页 G). 如果有多个返回示例可以在�
 
 例如:
 
-``` {.php}
+```php
 /**
  * .....
  * @apiSuccessSample ali_h5

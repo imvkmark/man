@@ -64,7 +64,7 @@ $ php artisan ide-helper:model "System\Models\PamAccount"
 模型注释需要导入提示, 在PHPstorm 中需要 `alt+enter` 进行 `Import Class`
 或者 `Simplify FQN`
 
-``` {.php}
+```php
 # bad
 /**
  * @property \Carbon\Carbon    $created_at
@@ -81,7 +81,7 @@ $ php artisan ide-helper:model "System\Models\PamAccount"
 里边的字段值出现的仅仅是新模块使用的, 包含兼容,
 但是不包含调用的字段命名.
 
-``` {.php}
+```php
 /**
  * System\BaseBanword
  * @property integer        $item_id      id

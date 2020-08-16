@@ -74,7 +74,7 @@ Version master
 
 ### sami.php 源文件
 
-``` {.php}
+```php
 <?php
 
 // config/sami.php

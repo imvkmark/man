@@ -114,7 +114,7 @@ class Upload
 这里我们以订单发布为例做下简单的说明 详细说明见注释
 其中根据业务情况来进行处理, 有的可能不需要这种处理
 
-``` {.php}
+```php
 // 这里的 input 是从控制器获取过来的, 不允许从请求中获取
 public function establish($input, $pay_pwd, $order_type, $type = 'plain')
 {
@@ -217,17 +217,21 @@ public function establish($input, $pay_pwd, $order_type, $type = 'plain')
 ## 注意要点
 
 **Action 中不得抛出异常**
+
 Action中不得抛出异常, 所有异常的处理需要在 action 的方法内进行,
 控制器仅仅进行路由的转发, 不允许处理异常
 
 **Action 中不得存在 log 日志**
+
 Log 日志如果被 crontab
 使用同时也被基本的信息错误调用便会出现权限不一致.
 
 **必须修复所有的编辑器代码错误提示**
+
 编辑器代码提示均可能存在 bug
 或者优化项目
 
 **Action命名**
+
 Action 命名不要和模型名称重复,
 一般为一个单词, 例如账号管理使用 `Pam` 作为命名

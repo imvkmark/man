@@ -1,3 +1,8 @@
+---
+group:
+  title: 系统模块
+---
+
 # System : 钩子(hook)
 
 服务的位置: `modules/{module}/configurations/services.yaml`
@@ -39,7 +44,7 @@ system.api_info:
 
 编写实现对应的key()/data()方法
 
-``` {.php}
+```php
 <?php
 class ApiInfo
     public function key()
@@ -56,7 +61,7 @@ class ApiInfo
 
 执行 ServiceFactory的parse方法
 
-``` {.php}
+```php
 sys_hook('system.api_info')
 [
     'api' => 'info'
@@ -84,7 +89,7 @@ ad.place_selection:
 
 实现builder方法
 
-``` {.php}
+```php
 public function builder($params = [])
 {
    $name    = $params['name'];
@@ -102,13 +107,13 @@ public function builder($params = [])
 
 调用执行
 
-``` {.php}
+```php
 sys_hook('ad.place_selection', $param)
 ```
 
 ## 代码实现
 
-``` {.php}
+```php
 <?php
     public function parse($id, $params = [])
     {
@@ -132,7 +137,7 @@ sys_hook('ad.place_selection', $param)
 services方法中调用
 ModulesService发initialize方法中,对每个模块下的service的配置进行了key=\>value的缓存初始化操作
 
-``` {.php}
+```php
 /**
  * @return ModulesService(
  */
@@ -151,7 +156,7 @@ public function services(): ModulesService
 }
 ```
 
-``` {.php}
+```php
 /**
  * Initialize.
  * @param Collection $data 集合
@@ -176,7 +181,7 @@ public function initialize(Collection $data)
 
 然后通过get()方法获取指定key的相关service配置
 
-``` {.php}
+```php
 /**
  * Get a module by name.
  * @param mixed $name name
@@ -188,7 +193,7 @@ public function get($name): Module
 }
 ```
 
-``` {.php}
+```php
 /**
  * @return Modules
  */
@@ -206,11 +211,11 @@ public function repository(): Modules
 
 ### 获取注册的hook方法
 
-``` {.php}
+```php
 $hooks = app('module')->hooks()->get($id);
 ```
 
-``` {.php}
+```php
 /**
  * @return ModulesHook
  */
@@ -229,7 +234,7 @@ public function hooks(): ModulesHook
 }
 ```
 
-``` {.php}
+```php
 /**
  * Initialize.
  * @param Collection $data 集合
@@ -261,7 +266,7 @@ public function initialize(Collection $data)
 
 ### 执行相应的parseArray /parseForm 方法
 
-``` {.php}
+```php
 $method = 'parse' . studly_case($service['type']);
 
 if (\is_callable([$this, $method])) {
@@ -269,7 +274,7 @@ if (\is_callable([$this, $method])) {
 }
 ```
 
-``` {.php}
+```php
 private function parseArray($hooks, $params)
 {
     $collect = [];
@@ -287,7 +292,7 @@ private function parseArray($hooks, $params)
 }
 ```
 
-``` {.php}
+```php
 private function parseForm($builder, $params)
 {
     if (class_exists($builder)) {
@@ -302,7 +307,7 @@ private function parseForm($builder, $params)
 
 调用hook定义的对应的方法
 
-``` {.php}
+```php
 public function key()
 {
     return 'api';
@@ -314,7 +319,7 @@ public function data()
 }
 ```
 
-``` {.php}
+```php
 public function builder($params = [])
 {
     $name    = $params['name'];
@@ -332,7 +337,7 @@ public function builder($params = [])
 
 ### 运行结果
 
-``` {.php}
+```php
 dump((new ServiceFactory)->parse('system.api_info'));
 
 /**

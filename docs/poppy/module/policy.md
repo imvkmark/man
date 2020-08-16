@@ -6,7 +6,7 @@
 
 策略映射放在 `{module}/src/ServiceProvider.php` 文件中, 如下定义
 
-``` {.php}
+```php
 protected $policies = [
     PamRole::class    => RolePolicy::class,
     PamAccount::class => AccountPolicy::class,
@@ -18,7 +18,7 @@ protected $policies = [
 对特定用户，你可能希望通过指定的策略授权所有动作。
 要达到这个目的，可以在策略中定义一个 `before` 方法。`before` 方法会在策略中其它所有方法之前执行，这样提供了一种方式来授权动作而不是指定的策略方法来执行判断。
 
-``` {.php}
+```php
 use PolicyTrait;
 
 /**
@@ -38,7 +38,7 @@ protected static $permissionMap = [
 
 如果你想拒绝用户所有的授权，你应该在 `before` 方法中返回 `false`。如果返回的是 `null`，则通过其它的策略方法来决定授权与否。
 
-``` {.php}
+```php
 /**
  * 策略映射
  */
@@ -71,7 +71,7 @@ trait PolicyTrait
 控制器
 ------
 
-``` {.php}
+```php
 /**
  * 广告位管理
  */
