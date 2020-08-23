@@ -42,7 +42,7 @@ Base64-encoded 数据要比原始数据多占用 33% 左右的空间。
 
 `array get_meta_tags ( string $filename [, bool $use_include_path = false ] )`
 
-打开 filename 逐行解析文件中的 <meta> 标签。解析工作将在 </head> 处停止
+打开 filename 逐行解析文件中的 `<meta>` 标签。解析工作将在 `</head>` 处停止
 返回的关联数组以属性 name 的值作为键，属性 content 的值作为值，所以你可以很容易地使用标准数组函数遍历此关联数组或访问某个值。 属性 name 中的特殊字符将使用‘_’替换，而其它字符则转换成小写。如果有两个 meta 标签拥有相同的 name，则只返回最后出现的那一个。
 
 `string http_build_query ( mixed $query_data [, string $numeric_prefix [, string $arg_separator [, int $enc_type = PHP_QUERY_RFC1738 ]]] )`
