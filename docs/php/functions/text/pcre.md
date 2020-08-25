@@ -80,7 +80,7 @@ PCRE的递归限制
 preg_quote()需要参数 str 并向其中 每个正则表达式语法中的字符前增加一个反斜线。 这通常用于你有一些运行时字符串 需要作为正则表达式进行匹配的时候。 
 
 
-![-w214](/_static/images/media/15936174730133/15936176267781.jpg)
+![-w214](./media/15936174730133/15936176267781.jpg)
 
 
 `mixed preg_replace_callback ( mixed $pattern , callable $callback , mixed $subject [, int $limit = -1 [, int &$count ]] )`
