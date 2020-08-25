@@ -321,7 +321,7 @@ var_dump($options);
 
 函数返回加载PHP图像的guid, 如果expose_php 选项开启,则允许使显示PHP logo图像 
 
-![-w192](/_static/images/media/15934459230634/15934466171902.jpg)
+![-w192](./media/15934459230634/15934466171902.jpg)
      
 
 `string php_sapi_name ( void )`
