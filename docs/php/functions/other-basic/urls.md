@@ -53,7 +53,7 @@ Base64-encoded 数据要比原始数据多占用 33% 左右的空间。
 
 本函数解析一个 URL 并返回一个关联数组，包含在 URL 中出现的各种组成部分。 
 
-![-w140](/_static/images/media/15936166612167/15936167667906.jpg)
+![-w140](./media/15936166612167/15936167667906.jpg)
 
 
 `string rawurldecode ( string $str )`
