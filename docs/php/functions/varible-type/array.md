@@ -221,7 +221,7 @@ array_intersect_ukey() 返回一个数组，该数组包含了所有出现在 ar
 
 将回调函数 function 迭代地作用到 input 数组中的每一个单元中，从而将数组简化为单一的值
 
-![-w287](/_static/images/media/15936187034803/15936188903713.jpg)
+![-w287](./media/15936187034803/15936188903713.jpg)
 
 
 `array array_replace_recursive ( array $array , array $array1 [, array $... ] )`
