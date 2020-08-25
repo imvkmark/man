@@ -328,7 +328,7 @@ DatePeriod implements Traversable {
 
 Sample:
 
-![-w313](/_static/images/media/15935146461813/15935147175060.jpg)
+![-w313](./media/15935146461813/15935147175060.jpg)
 
 
 
@@ -426,7 +426,7 @@ $timestamp  默认是现在时间
 [0]       => 1055901520       unix时间戳
 ```
 
-![-w140](/_static/images/media/15935146461813/15935151451651.jpg)
+![-w140](./media/15935146461813/15935151451651.jpg)
 
 
 `mixed gettimeofday ([ bool $return_float ] )`
@@ -440,7 +440,7 @@ $timestamp  默认是现在时间
 [dsttime] => 1               夏时令校正的类型
 ```
 
-![-w156](/_static/images/media/15935146461813/15935151804142.jpg)
+![-w156](./media/15935146461813/15935151804142.jpg)
 
 `string gmdate ( string $format [, int $timestamp ] )`
 
@@ -479,7 +479,7 @@ $format    只接受一个字符作为format参数.
 [tm_isdst] => 1
 ```
 
-![-w183](/_static/images/media/15935146461813/15935152436743.jpg)
+![-w183](./media/15935146461813/15935152436743.jpg)
 
 
 `mixed microtime ([ bool $get_as_float ] )`
