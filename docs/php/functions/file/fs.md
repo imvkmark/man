@@ -39,7 +39,7 @@ PHP_INI_ALL        当设置为ON是,php将检测行的结束符符合那种操�
 返回路径中的文件名部分
 - $suffix     需要去除的后缀名
 
-![-w252](/_static/images/media/15935332172294/15935334279663.jpg)
+![-w252](./media/15935332172294/15935334279663.jpg)
 
 
 `bool chgrp ( string $filename , mixed $group )`
@@ -167,7 +167,7 @@ PHP_INI_ALL        当设置为ON是,php将检测行的结束符符合那种操�
 
 取得文件的类型, 可能的值有 fifo, char, dir, block, link, file, unknown
 
-![-w136](/_static/images/media/15935332172294/15935334594177.jpg)
+![-w136](./media/15935332172294/15935334594177.jpg)
 
 
 `bool flock ( int $handle , int $operation [, int &$wouldblock ] )`
@@ -346,7 +346,7 @@ PHP_INI_ALL        当设置为ON是,php将检测行的结束符符合那种操�
       PATHINFO_BASENAME  基础名称
       PATHINFO_EXTENSION 扩展
 
-![-w163](/_static/images/media/15935332172294/15935335171390.jpg)
+![-w163](./media/15935332172294/15935335171390.jpg)
 
 
 `int pclose ( resource $handle )`
