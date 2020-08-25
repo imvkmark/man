@@ -40,7 +40,7 @@
 
 返回 arg 的反余弦值，单位是弧度。 acos() 是 cos() 的反函数，它的意思是在 acos() 范围里的每个值都是 a==cos(acos(a)) 。 
 
-![-w381](/_static/images/media/15935352014823/15935354612895.jpg)
+![-w381](./media/15935352014823/15935354612895.jpg)
 
      
 `float acosh ( float $arg )`
@@ -52,7 +52,7 @@
 
 返回 arg 的反正弦值，单位是弧度。 asin() 是 sin() 的反函数，它的意思是在 asin() 范围里的每个值都是 a==sin(asin(a)) 。 
 
-![-w387](/_static/images/media/15935352014823/15935354560459.jpg)
+![-w387](./media/15935352014823/15935354560459.jpg)
 
 
 `float asinh ( float $arg )`
@@ -69,7 +69,7 @@
 返回 arg 的反正切值，单位是弧度。 atan() 是 tan() 的反函数，它的意思是在 atan() 范围里的每个值都是 a==tan(atan(a))。 
 
 
-![-w381](/_static/images/media/15935352014823/15935354506084.jpg)
+![-w381](./media/15935352014823/15935354506084.jpg)
 
 `float atanh ( float $arg )`
 
@@ -93,7 +93,7 @@ bindec() 将一个二进制数转换成 integer，或者出于大小的需要，
 
 cos() 返回参数 arg 的余弦值。参数 arg 的单位为弧度。
 
-![-w388](/_static/images/media/15935352014823/15935354451139.jpg)
+![-w388](./media/15935352014823/15935354451139.jpg)
 
 
 `float cosh ( float $arg )`
@@ -138,7 +138,7 @@ cos() 返回参数 arg 的余弦值。参数 arg 的单位为弧度。
 显示随机数最大的可能值
 
 
-![-w147](/_static/images/media/15935352014823/15935354386599.jpg)
+![-w147](./media/15935352014823/15935354386599.jpg)
 
 `number hexdec ( string $hex_string )`
 
