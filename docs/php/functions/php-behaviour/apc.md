@@ -167,9 +167,8 @@ PHP_INI_SYSTEM 启用类延迟加载
 
 `mixed apc_fetch ( mixed $key [, bool &$success ] )`
 
-从服务器取出一个变量, 成功 $success 为true, 失败为false;
-同样返回也是false或者变量, 为了区别false和存储的变量,尽量使用$success
-可以使用数组的值进行一连串的调用
+从服务器取出一个变量, 成功 `$success` 为 `true`, 失败为`false`;
+同样返回也是 `false` 或者变量, 为了区别 `false` 和存储的变量,尽量使用 `$success`, 可以使用数组的值进行一连串的调用
 
 `mixed apc_exists ( mixed $keys )`
 

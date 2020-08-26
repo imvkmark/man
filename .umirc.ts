@@ -13,6 +13,7 @@ export default defineConfig({
             path: '/os',
             children: [
                 { title: 'Linux/Unix', path: '/os/linux' },
+                { title: 'Shell', path: '/shell' },
                 { title: 'CentOS', path: '/os/centos' },
                 { title: 'Mac', path: '/os/mac' },
             ],
@@ -75,6 +76,11 @@ export default defineConfig({
         {
             title: 'Nginx',
             path: '/nginx',
+            children: [
+                { title: 'Guide', path: '/nginx/guide' },
+                { title: '示例', path: '/nginx/example' },
+                { title: 'Variable', path: '/nginx/variable' },
+            ],
         },
         {
             title: 'Poppy Framework',
