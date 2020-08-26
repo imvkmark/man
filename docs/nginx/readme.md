@@ -14,3 +14,12 @@ features:
     desc: 代码完全开源在 GitHub ，希望大家一起共建
 footer: MIT Licensed | Copyright © 2018-present @xuexb [@github](https://github.com/xuexb/learn-nginx)
 ---
+
+### 常用链接
+
+<table>
+    <tr>
+        <td><a href="https://nginx.viraptor.info/">Nginx location match tester</a></td>
+        <td><a href="https://www.digitalocean.com/community/tools/nginx">Nginx Config</a></td>
+    </tr>
+</table>
