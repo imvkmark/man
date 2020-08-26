@@ -2,23 +2,27 @@
 hero:
   title: WuliCode 知识库
   desc: 搜集的常用知识内容, 工作中系统整理的内容
-  actions:
-    - text: Nginx
-      link: /nginx
-    - text: Php
-      link: /php
-    - text: Poppy
-      link: /poppy
 features:
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
-    title: Feature 1
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
-    title: Feature 2
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
-    title: Feature 3
-    desc: Balabala
+  - icon: /images/logo/bash.png
+    title: Shell语法
+    desc: Shell 是一个用 C 语言编写的程序，它是用户使用 Linux 的桥梁。Shell 既是一种命令语言，又是一种程序设计语言。
+  - icon: /images/logo/desktop.png
+    title: 操作系统
+    desc: 包含 Mac. Linux 常用软件以及操作解决方案
+  - icon: /images/logo/develop.png
+    title: 开发相关
+    desc: 包含开发相关资料, 例如 Git, Ide, 正则表达式, 标记语言知识
+  - icon: /images/logo/man.png
+    title: Shell命令
+    desc: 常用的 Shell 命令
+  - icon: /images/logo/php.png
+    title: Php
+    desc: 包含 Php 资料, 函数, Laravel 资料
+  - icon: /images/logo/poppy.png
+    title: Poppy Framework
+    desc: 模块化加载框架
+  - icon: /images/logo/nginx.png
+    title: Nginx
+    desc: 记录了 Nginx 一些常用的配置过程, 结合使用场景，涵盖 WEB 开发中常用的示例，以及对应的说明
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
-## Hello dumi!
