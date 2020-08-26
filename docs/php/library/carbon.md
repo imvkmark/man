@@ -1,4 +1,4 @@
-# [转+] Carbon中文文档
+# [转+] Carbon 中文文档
 
 原文地址 : [Carbon中文文档](https://segmentfault.com/a/1190000012716974)
 
