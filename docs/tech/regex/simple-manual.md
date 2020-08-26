@@ -145,7 +145,7 @@ var regex = '/[\u4e00-\u9fa5]/';
 
 - **普通捕获子组 (pattern)**
 
-- **命名捕获子组(?<name>pattern)**
+- **命名捕获子组(`?<name>pattern`)**
 
 
 #### 3.3.2 捕获编号规则
