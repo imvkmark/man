@@ -9,6 +9,15 @@ export default defineConfig({
     logo: '/images/icon.png',
     navs: [
         {
+            title: 'Os/系统',
+            path: '/os',
+            children: [
+                { title: 'Linux/Unix', path: '/os/linux' },
+                { title: 'CentOS', path: '/os/centos' },
+                { title: 'Mac', path: '/os/mac' },
+            ],
+        },
+        {
             title: 'Tech',
             path: '/tech',
             children: [
