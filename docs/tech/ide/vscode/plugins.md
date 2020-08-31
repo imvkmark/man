@@ -11,15 +11,12 @@
 
 ```json
 {
-    "settings": {
-        "pasteImage.basePath": "${projectRoot}",
-        "pasteImage.defaultName": "Y/MMDD/HHmmss",
-        "pasteImage.prefix": ".. image:: /",
-        "pasteImage.path": "${projectRoot}/_static/images/",
-        "pasteImage.encodePath": "none"
-    }
+    "pasteImage.defaultName": "Y/MMDD/HHmmss",
+    "pasteImage.encodePath": "none",
+    "pasteImage.path": "media",
+    "pasteImage.prefix": "./"
 }
 ```
 
 这样我们粘贴图片的之后就可以直接将文件粘贴到
-`/_static/images/2020/0131/191053.png` 类似目录下
+`./media/2020/0131/191053.png` 类似目录下

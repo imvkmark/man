@@ -1,6 +1,6 @@
 ---
 hero:
-  title: Mac 使用技巧
+    title: Mac 使用技巧
 ---
 
 ## 常用的软件
