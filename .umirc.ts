@@ -7,6 +7,29 @@ export default defineConfig({
         port: 8001,
     },
     logo: '/images/icon.png',
+    chunks: ['vendors', 'umi'],
+    chainWebpack: function(config, { webpack }) {
+        config.merge({
+            optimization: {
+                minimize: true,
+                splitChunks: {
+                    chunks: 'all',
+                    minSize: 30000,
+                    minChunks: 3,
+                    automaticNameDelimiter: '.',
+                    cacheGroups: {
+                        vendor: {
+                            name: 'vendors',
+                            test({ resource }) {
+                                return /[\\/]node_modules[\\/]/.test(resource);
+                            },
+                            priority: 10,
+                        },
+                    },
+                },
+            },
+        });
+    },
     navs: [
         { title: 'Shell', path: '/shell' },
         {
