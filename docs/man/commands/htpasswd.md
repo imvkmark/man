@@ -1,5 +1,4 @@
-htpasswd
-===
+# htpasswd
 
 apache服务器创建密码认证文件
 

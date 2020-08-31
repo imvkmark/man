@@ -1,5 +1,4 @@
-lvresize
-===
+# lvresize
 
 调整逻辑卷空间大小
 

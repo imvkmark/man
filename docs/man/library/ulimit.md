@@ -1,5 +1,4 @@
-ulimit
-===
+# ulimit
 
 控制shell程序的资源
 

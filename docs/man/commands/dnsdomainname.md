@@ -1,5 +1,4 @@
-dnsdomainname
-===
+# dnsdomainname
 
 定义DNS系统中FQDN名称的域名
 

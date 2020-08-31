@@ -1,5 +1,4 @@
-vgextend
-===
+# vgextend
 
 向卷组中添加物理卷
 

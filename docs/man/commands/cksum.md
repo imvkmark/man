@@ -1,5 +1,4 @@
-cksum
-===
+# cksum
 
 检查文件的CRC是否正确
 

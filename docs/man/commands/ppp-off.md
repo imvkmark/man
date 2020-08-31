@@ -1,5 +1,4 @@
-ppp-off
-===
+# ppp-off
 
 关闭ppp连线
 

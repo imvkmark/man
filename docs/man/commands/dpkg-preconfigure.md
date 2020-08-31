@@ -1,5 +1,4 @@
-dpkg-preconfigure
-===
+# dpkg-preconfigure
 
 Debian Linux中软件包安装之前询问问题
 

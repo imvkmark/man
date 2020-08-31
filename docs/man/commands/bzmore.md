@@ -1,5 +1,4 @@
-bzmore
-===
+# bzmore
 
 查看bzip2压缩过的文本文件的内容
 

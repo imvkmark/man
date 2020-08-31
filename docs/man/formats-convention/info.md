@@ -1,5 +1,4 @@
-info
-===
+# info
 
 Linux下info格式的帮助指令
 

@@ -1,5 +1,4 @@
-rlogin
-===
+# rlogin
 
 从当前终端登录到远程Linux主机
 

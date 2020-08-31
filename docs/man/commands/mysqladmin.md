@@ -1,5 +1,4 @@
-mysqladmin
-===
+# mysqladmin
 
 MySQL服务器管理客户端
 

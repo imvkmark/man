@@ -1,5 +1,4 @@
-apropos
-===
+# apropos
 
 在 whatis 数据库中查找字符串
 

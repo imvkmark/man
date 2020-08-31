@@ -1,5 +1,4 @@
-ftpwho
-===
+# ftpwho
 
 显示当前每个ftp会话信息
 

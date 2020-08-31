@@ -1,5 +1,4 @@
-mkinitrd
-===
+# mkinitrd
 
 建立要载入ramdisk的映像文件
 

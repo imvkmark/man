@@ -1,5 +1,4 @@
-getsebool
-===
+# getsebool
 
 查询SElinux策略内各项规则的布尔值
 

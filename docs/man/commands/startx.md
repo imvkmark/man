@@ -1,5 +1,4 @@
-startx
-===
+# startx
 
 用来启动X Window
 

@@ -1,5 +1,4 @@
-lnstat
-===
+# lnstat
 
 显示Linux系统的网路状态
 

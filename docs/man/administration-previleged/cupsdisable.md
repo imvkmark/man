@@ -1,5 +1,4 @@
-cupsdisable
-===
+# cupsdisable
 
 停止指定的打印机
 

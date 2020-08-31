@@ -1,5 +1,4 @@
-repquota
-===
+# repquota
 
 报表的格式输出磁盘空间限制的状态
 

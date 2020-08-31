@@ -1,5 +1,4 @@
-runlevel
-===
+# runlevel
 
 打印当前Linux系统的运行等级
 

@@ -1,5 +1,4 @@
-dhcrelay
-===
+# dhcrelay
 
 使用dhcrelay命令可以提供中继DHCP和BOOTP请求
 

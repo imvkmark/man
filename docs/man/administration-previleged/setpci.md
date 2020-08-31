@@ -1,5 +1,4 @@
-setpci
-===
+# setpci
 
 查询和配置PCI设备的使用工具
 

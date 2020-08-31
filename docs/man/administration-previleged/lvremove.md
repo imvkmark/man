@@ -1,5 +1,4 @@
-lvremove
-===
+# lvremove
 
 删除指定LVM逻辑卷
 

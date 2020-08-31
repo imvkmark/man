@@ -1,5 +1,4 @@
-smbclient
-===
+# smbclient
 
 交互方式访问samba服务器
 

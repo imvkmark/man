@@ -1,5 +1,4 @@
-bmodinfo
-===
+# bmodinfo
 
 显示给定模块的详细信息
 

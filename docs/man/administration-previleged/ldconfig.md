@@ -1,5 +1,4 @@
-ldconfig
-===
+# ldconfig
 
 动态链接库管理命令
 

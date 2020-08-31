@@ -1,5 +1,4 @@
-quotaon
-===
+# quotaon
 
 激活Linux内核中指定文件系统的磁盘配额功能
 

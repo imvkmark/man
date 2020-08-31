@@ -1,5 +1,4 @@
-dhclient
-===
+# dhclient
 
 动态获取或释放IP地址
 

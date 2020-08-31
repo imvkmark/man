@@ -1,5 +1,4 @@
-quotaoff
-===
+# quotaoff
 
 关闭Linux内核中指定文件系统的磁盘配额功能
 

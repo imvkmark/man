@@ -1,5 +1,4 @@
-rpmsign
-===
+# rpmsign
 
 使用RPM软件包的签名管理工具
 

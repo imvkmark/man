@@ -1,5 +1,4 @@
-unrar
-===
+# unrar
 
 解压rar文件命令，从rar档案中提取文件
 

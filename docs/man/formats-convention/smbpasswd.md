@@ -1,5 +1,4 @@
-smbpasswd
-===
+# smbpasswd
 
 samba用户和密码管理工具
 

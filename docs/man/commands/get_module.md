@@ -1,5 +1,4 @@
-get_module
-===
+# get_module
 
 获取Linux内核模块的详细信息
 

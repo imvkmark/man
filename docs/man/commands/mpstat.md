@@ -1,5 +1,4 @@
-mpstat
-===
+# mpstat
 
 显示各个可用CPU的状态
 

@@ -35,7 +35,7 @@ system.api_info:
 
 **定义 hooks** 然后再hooks.yaml文件中,注册调用hook方法
 
-``` {.yaml}
+```yaml
 -
     name: 'system.api_info'
     hooks:
@@ -81,7 +81,7 @@ ad.place_selection:
 
 注册hook方法
 
-``` {.yaml}
+```yaml
 -
     name: 'ad.place_selection'
     builder: '\Ad\Services\Hooks\AdPlaceSelection'

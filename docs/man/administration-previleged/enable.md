@@ -1,5 +1,4 @@
-enable
-===
+# enable
 
 启动或禁用shell内建命令
 

@@ -1,5 +1,4 @@
-dpkg-split
-===
+# dpkg-split
 
 Debian Linux中将大软件包分割成小包
 

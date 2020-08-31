@@ -1,5 +1,4 @@
-zipsplit
-===
+# zipsplit
 
 将较大的zip压缩包分割成各个较小的压缩包
 

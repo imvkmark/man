@@ -1,5 +1,4 @@
-semanage
-===
+# semanage
 
 默认目录的安全上下文查询与修改
 

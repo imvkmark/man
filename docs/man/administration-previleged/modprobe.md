@@ -1,5 +1,4 @@
-modprobe
-===
+# modprobe
 
 自动处理可载入模块
 

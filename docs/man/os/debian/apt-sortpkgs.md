@@ -1,5 +1,4 @@
-apt-sortpkgs
-===
+# apt-sortpkgs
 
 Debian Linux下对软件包索引文件进行排序的工具
 

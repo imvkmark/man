@@ -1,5 +1,4 @@
-updatedb
-===
+# updatedb
 
 创建或更新slocate命令所必需的数据库文件
 

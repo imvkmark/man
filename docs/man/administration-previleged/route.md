@@ -1,5 +1,4 @@
-route
-===
+# route
 
 显示并设置Linux中静态路由表
 

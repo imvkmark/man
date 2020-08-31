@@ -1,5 +1,4 @@
-nslookup
-===
+# nslookup
 
 查询域名DNS信息的工具
 

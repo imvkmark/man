@@ -1,5 +1,4 @@
-ssh-copy-id
-===
+# ssh-copy-id
 
 把本地的ssh公钥文件安装到远程主机对应的账户下
 

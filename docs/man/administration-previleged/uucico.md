@@ -1,5 +1,4 @@
-uucico
-===
+# uucico
 
 UUCP文件传输服务程序
 

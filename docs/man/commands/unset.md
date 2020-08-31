@@ -1,5 +1,4 @@
-unset
-===
+# unset
 
 删除指定的shell变量或函数。
 

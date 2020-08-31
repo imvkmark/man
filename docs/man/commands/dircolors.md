@@ -1,5 +1,4 @@
-dircolors
-===
+# dircolors
 
 置ls命令在显示目录或文件时所用的色彩
 

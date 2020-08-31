@@ -1,5 +1,4 @@
-xclip
-===
+# xclip
 
 管理 X 粘贴板
 

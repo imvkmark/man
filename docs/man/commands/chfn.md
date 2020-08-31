@@ -1,5 +1,4 @@
-chfn
-===
+# chfn
 
 用来改变finger命令显示的信息
 

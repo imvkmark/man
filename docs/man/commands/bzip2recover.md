@@ -1,5 +1,4 @@
-bzip2recover
-===
+# bzip2recover
 
 恢复被破坏的.bz2压缩包中的文件
 

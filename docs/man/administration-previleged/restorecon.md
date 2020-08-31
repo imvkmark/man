@@ -1,5 +1,4 @@
-restorecon
-===
+# restorecon
 
 恢复文件的安全上下文
 

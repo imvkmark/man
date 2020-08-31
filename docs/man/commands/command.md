@@ -1,5 +1,4 @@
-command
-===
+# command
 
 调用并执行指定的命令
 

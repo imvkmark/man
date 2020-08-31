@@ -1,5 +1,4 @@
-ip6tables-save
-===
+# ip6tables-save
 
 保存ip6tables表配置
 

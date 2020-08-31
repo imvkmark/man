@@ -1,5 +1,4 @@
-chpasswd
-===
+# chpasswd
 
 批量更新用户口令的工具
 

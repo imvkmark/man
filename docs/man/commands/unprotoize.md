@@ -1,5 +1,4 @@
-unprotoize
-===
+# unprotoize
 
 删除C语言源代码文件中的函数原型
 

@@ -1,5 +1,4 @@
-xlsatoms
-===
+# xlsatoms
 
 列出X服务器内部所有定义的原子成分
 

@@ -1,5 +1,4 @@
-clock
-===
+# clock
 
 用于调整 RTC 时间
 

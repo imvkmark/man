@@ -1,5 +1,4 @@
-getenforce
-===
+# getenforce
 
 显示当前SELinux的应用模式，是强制、执行还是停用
 

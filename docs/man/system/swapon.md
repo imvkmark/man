@@ -1,5 +1,4 @@
-swapon
-===
+# swapon
 
 激活Linux系统中交换空间
 

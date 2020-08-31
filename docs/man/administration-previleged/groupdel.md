@@ -1,5 +1,4 @@
-groupdel
-===
+# groupdel
 
 用于删除指定的工作组
 

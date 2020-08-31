@@ -1,5 +1,4 @@
-dpkg
-===
+# dpkg
 
 Debian Linux系统上安装、创建和管理软件包
 

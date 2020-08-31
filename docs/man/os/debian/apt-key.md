@@ -1,5 +1,4 @@
-apt-key
-===
+# apt-key
 
 管理Debian Linux系统中的软件包密钥
 

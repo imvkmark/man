@@ -1,5 +1,4 @@
-mysqlimport
-===
+# mysqlimport
 
 为MySQL服务器用命令行方式导入数据
 

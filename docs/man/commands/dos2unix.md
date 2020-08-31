@@ -1,5 +1,4 @@
-dos2unix
-===
+# dos2unix
 
 将DOS格式文本文件转换成Unix格式
 

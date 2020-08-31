@@ -1,5 +1,4 @@
-vgreduce
-===
+# vgreduce
 
 从卷组中删除物理卷
 

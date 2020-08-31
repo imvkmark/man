@@ -1,5 +1,4 @@
-vgcreate
-===
+# vgcreate
 
 用于创建LVM卷组
 

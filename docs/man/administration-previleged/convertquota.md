@@ -1,5 +1,4 @@
-convertquota
-===
+# convertquota
 
 把老的配额文件转换为新的格式
 

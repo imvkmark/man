@@ -1,5 +1,4 @@
-uptime
-===
+# uptime
 
 查看Linux系统负载信息
 

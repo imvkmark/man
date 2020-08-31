@@ -1,5 +1,4 @@
-nisdomainname
-===
+# nisdomainname
 
 显示主机NIS的域名
 

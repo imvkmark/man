@@ -1,5 +1,4 @@
-vgrename
-===
+# vgrename
 
 使用vgrename命令可以重命名卷组的名称
 

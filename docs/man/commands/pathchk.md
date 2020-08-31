@@ -1,5 +1,4 @@
-pathchk
-===
+# pathchk
 
 检查文件中不可移植的部分
 

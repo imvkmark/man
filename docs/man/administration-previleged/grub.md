@@ -1,5 +1,4 @@
-grub
-===
+# grub
 
 多重引导程序grub的命令行shell工具
 

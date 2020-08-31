@@ -1,5 +1,4 @@
-uncompress
-===
+# uncompress
 
 用来解压.Z文件
 

@@ -1,5 +1,4 @@
-swapoff
-===
+# swapoff
 
 关闭指定的交换空间
 

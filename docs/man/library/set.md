@@ -1,5 +1,4 @@
-set
-===
+# set
 
 显示或设置shell特性及shell变量
 

@@ -1,5 +1,4 @@
-lscpu
-===
+# lscpu
 
 显示有关CPU架构的信息
 

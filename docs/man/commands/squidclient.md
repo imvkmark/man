@@ -1,5 +1,4 @@
-squidclient
-===
+# squidclient
 
 squid服务器的客户端管理工具
 

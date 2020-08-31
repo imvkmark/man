@@ -1,5 +1,4 @@
-mailstat
-===
+# mailstat
 
 显示到达的邮件状态
 

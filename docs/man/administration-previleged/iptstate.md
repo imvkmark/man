@@ -1,5 +1,4 @@
-iptstate
-===
+# iptstate
 
 显示iptables的工作状态
 

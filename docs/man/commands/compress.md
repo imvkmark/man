@@ -1,5 +1,4 @@
-compress
-===
+# compress
 
 使用Lempress-Ziv编码压缩数据文件
 

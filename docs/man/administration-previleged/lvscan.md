@@ -1,5 +1,4 @@
-lvscan
-===
+# lvscan
 
 扫描逻辑卷
 

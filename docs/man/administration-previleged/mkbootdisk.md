@@ -1,5 +1,4 @@
-mkbootdisk
-===
+# mkbootdisk
 
 可建立目前系统的启动盘
 

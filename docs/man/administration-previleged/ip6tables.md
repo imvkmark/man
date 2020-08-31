@@ -1,5 +1,4 @@
-ip6tables
-===
+# ip6tables
 
 linux中防火墙软件
 

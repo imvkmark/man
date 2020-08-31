@@ -1,5 +1,4 @@
-lvdisplay
-===
+# lvdisplay
 
 显示逻辑卷属性
 

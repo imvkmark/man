@@ -637,7 +637,6 @@ posix 正则, 现在推荐使用 pcre 正则, 这个在 [5.3.0] 中不建议使�
 
 ### Ctype — Character type checking
 ++++字串类型检测
-----
 
 ### Filter — Data Filtering
 ++++这个过滤数据的功能是验证和消毒数据. 这个特性在数据不知道数据的的情况下非常有用, 像用户提供的数据,例如说来自html表单的数据

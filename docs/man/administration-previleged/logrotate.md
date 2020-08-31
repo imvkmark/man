@@ -1,5 +1,4 @@
-logrotate
-===
+# logrotate
 
 系统日志进行轮转、压缩和删除
 

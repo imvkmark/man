@@ -1,5 +1,4 @@
-install
-===
+# install
 
 安装或升级软件或备份数据
 

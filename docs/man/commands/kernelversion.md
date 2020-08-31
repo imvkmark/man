@@ -1,5 +1,4 @@
-kernelversion
-===
+# kernelversion
 
 打印当前内核的主版本号
 

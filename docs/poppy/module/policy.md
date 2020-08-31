@@ -68,8 +68,7 @@ trait PolicyTrait
 }
 ```
 
-控制器
-------
+## 控制器
 
 ```php
 /**

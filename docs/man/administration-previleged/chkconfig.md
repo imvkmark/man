@@ -1,5 +1,4 @@
-chkconfig
-===
+# chkconfig
 
 检查或设置系统的各种服务
 

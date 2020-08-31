@@ -1,5 +1,4 @@
-gpasswd
-===
+# gpasswd
 
 Linux下工作组文件的管理工具
 

@@ -1,5 +1,4 @@
-ftptop
-===
+# ftptop
 
 proftpd服务器的连接状态
 

@@ -1,5 +1,4 @@
-dpkg-statoverride
-===
+# dpkg-statoverride
 
 Debian Linux中覆盖文件的所有权和模式
 

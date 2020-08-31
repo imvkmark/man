@@ -1,5 +1,4 @@
-ntpdate
-===
+# ntpdate
 
 使用网络计时协议（NTP）设置日期和时间
 

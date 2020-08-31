@@ -1,5 +1,4 @@
-shopt
-===
+# shopt
 
 显示和设置shell操作选项
 

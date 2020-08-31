@@ -1,5 +1,4 @@
-exit
-===
+# exit
 
 退出当前的shell。
 

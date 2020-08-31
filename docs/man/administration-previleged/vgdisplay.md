@@ -1,5 +1,4 @@
-vgdisplay
-===
+# vgdisplay
 
 显示LVM卷组的信息
 

@@ -1,5 +1,4 @@
-seinfo
-===
+# seinfo
 
 查询SELinux的策略提供多少相关规则
 

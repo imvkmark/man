@@ -1,5 +1,4 @@
-blkid
-===
+# blkid
 
 查看块设备的文件系统类型、LABEL、UUID等信息
 

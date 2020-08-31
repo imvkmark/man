@@ -1,5 +1,4 @@
-sesearch
-===
+# sesearch
 
 查询SELinux策略的规则详情
 

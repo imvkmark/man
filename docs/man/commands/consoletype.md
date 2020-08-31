@@ -1,5 +1,4 @@
-consoletype
-===
+# consoletype
 
 输出已连接的终端类型
 

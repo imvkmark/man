@@ -1,5 +1,4 @@
-zfore
-===
+# zfore
 
 强制为gzip格式的压缩文件添加.gz后缀
 

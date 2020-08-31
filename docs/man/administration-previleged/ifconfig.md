@@ -1,5 +1,4 @@
-ifconfig
-===
+# ifconfig
 
 配置和显示Linux系统网卡的网络参数
 

@@ -1,5 +1,4 @@
-disown
-===
+# disown
 
 从当前的shell中移除作业。
 

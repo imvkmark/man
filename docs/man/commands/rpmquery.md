@@ -1,5 +1,4 @@
-rpmquery
-===
+# rpmquery
 
 从RPM数据库中查询软件包信息
 

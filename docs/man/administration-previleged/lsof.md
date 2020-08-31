@@ -1,5 +1,4 @@
-lsof
-===
+# lsof
 
 显示Linux系统当前已打开的所有文件列表 `lsof -p pid`
 

@@ -1,5 +1,4 @@
-lpadmin
-===
+# lpadmin
 
 配置CUPS套件中的打印机和类
 

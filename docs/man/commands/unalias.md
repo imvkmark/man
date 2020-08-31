@@ -1,5 +1,4 @@
-unalias
-===
+# unalias
 
 删除由alias设置的别名
 

@@ -1,5 +1,4 @@
-tftp
-===
+# tftp
 
 在本机和tftp服务器之间使用TFTP协议传输文件
 

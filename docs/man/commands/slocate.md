@@ -1,5 +1,4 @@
-slocate
-===
+# slocate
 
 命令查找文件或目录
 

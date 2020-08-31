@@ -1,5 +1,4 @@
-ifcfg
-===
+# ifcfg
 
 置Linux中的网络接口参数
 

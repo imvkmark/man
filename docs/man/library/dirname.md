@@ -1,5 +1,4 @@
-dirname
-===
+# dirname
 
 去除文件名中的非目录部分
 

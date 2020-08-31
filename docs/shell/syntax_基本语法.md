@@ -1,8 +1,6 @@
-基本语法
-========
+# 基本语法
 
-解释器
-------
+## 解释器
 
 前面虽然两次提到了 `#!`
 ，但是本着重要的事情说三遍的精神，这里再强调一遍：
@@ -20,8 +18,7 @@ Shell 解释器。 `#!` 被称作[shebang（也称为 Hashbang
 #!/usr/bin/env bash
 ```
 
-注释
-----
+## 注释
 
 注释可以说明你的代码是什么作用，以及为什么这样写。
 
@@ -52,8 +49,7 @@ EOF
 # Output: null
 ```
 
-echo
-----
+## echo
 
 用于字符串的输出。
 
@@ -107,8 +103,7 @@ work_path=$(cd "$(dirname "$0")" && pwd)
 echo "test" >"${work_path}/../_output/syntax-test.txt"
 ```
 
-printf
-------
+## printf
 
 printf 用于格式化输出字符串。
 

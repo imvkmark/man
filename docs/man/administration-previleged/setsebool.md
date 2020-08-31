@@ -1,5 +1,4 @@
-setsebool
-===
+# setsebool
 
 修改SElinux策略内各项规则的布尔值
 

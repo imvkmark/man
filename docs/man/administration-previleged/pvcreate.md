@@ -1,5 +1,4 @@
-pvcreate
-===
+# pvcreate
 
 将物理硬盘分区初始化为物理卷
 

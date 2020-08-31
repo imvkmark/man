@@ -1,5 +1,4 @@
-bunzip2
-===
+# bunzip2
 
 创一个bz2文件压缩包
 

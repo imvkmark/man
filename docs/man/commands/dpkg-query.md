@@ -1,5 +1,4 @@
-dpkg-query
-===
+# dpkg-query
 
 Debian Linux中软件包的查询工具
 

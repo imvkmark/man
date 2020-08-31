@@ -110,8 +110,7 @@ php artisan poppy:optimize
 右键忽略掉即可, 这个是生成的文件, 不需要进行 php 索引
 
 ```
-前端文件
-========
+# 前端文件
 public/assets/css
 public/assets/font/fontawesome
 public/assets/js/system_cp.js

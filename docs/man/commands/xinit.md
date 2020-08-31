@@ -1,5 +1,4 @@
-xinit
-===
+# xinit
 
 是Linux下X-Window系统的初始化程序
 

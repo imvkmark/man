@@ -1,5 +1,4 @@
-ip6tables-restore
-===
+# ip6tables-restore
 
 还原ip6tables表
 

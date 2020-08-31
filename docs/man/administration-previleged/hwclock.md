@@ -1,5 +1,4 @@
-hwclock
-===
+# hwclock
 
 显示与设定硬件时钟
 

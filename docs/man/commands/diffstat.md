@@ -1,5 +1,4 @@
-diffstat
-===
+# diffstat
 
 显示diff命令输出信息的柱状图
 

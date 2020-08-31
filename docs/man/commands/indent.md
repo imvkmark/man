@@ -1,5 +1,4 @@
-indent
-===
+# indent
 
 格式化C语言的源文件
 

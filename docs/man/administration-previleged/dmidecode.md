@@ -1,5 +1,4 @@
-dmidecode
-===
+# dmidecode
 
 在Linux系统下获取有关硬件方面的信息
 

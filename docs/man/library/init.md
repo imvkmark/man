@@ -1,5 +1,4 @@
-init
-===
+# init
 
 init进程是所有Linux进程的父进程
 

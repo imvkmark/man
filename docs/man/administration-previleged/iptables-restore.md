@@ -1,5 +1,4 @@
-iptables-restore
-===
+# iptables-restore
 
 还原iptables表的配置
 

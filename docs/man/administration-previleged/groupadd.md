@@ -1,5 +1,4 @@
-groupadd
-===
+# groupadd
 
 用于创建一个新的工作组
 

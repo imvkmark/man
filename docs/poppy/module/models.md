@@ -126,8 +126,7 @@ user    # 用户
 -   `$table` 定义的是原始表的名称
 -   `$primaryKey` 定义的是主键
 
-设计原则
---------
+#### 设计原则
 
 -   字串默认值必须是 \'\'
 -   数值必须存在默认值, 默认值为 0 (根据业务需求来定义)
@@ -142,11 +141,10 @@ disabled_from_at
 disabled_to_at
 ```
 
-模型定义
---------
+#### 模型定义
 
-kv 定义
--------
+#### kv 定义
+
 
 开发中不允许出现状态是 1, 2, 3, 所有的对应项目必须在模型中给予定义,
 采用常量的方式进行定义
@@ -231,8 +229,7 @@ class PamAccount extends \Eloquent
 
 如果注释更新之后模型中调用没有获取到最新的, 清空下缓存即可.
 
-数据表字段
-----------
+## 数据表字段
 
 ### 数据表常用字段
 
@@ -247,8 +244,7 @@ deleted_at       : l5 软删除(项目中不推荐使用, 效率低下)
 updated_at       : l5 更新
 ```
 
-数据库索引
-----------
+## 数据库索引
 
 ### 索引命名
 
@@ -260,11 +256,9 @@ item            k_base_config_item
 account_name    u_account_name
 ```
 
-使用
-----
+## 使用
 
-表创建
-------
+## 表创建
 
 ```
 $tb_pam   = (new PamAccount())->getTable();
@@ -317,8 +311,7 @@ $orderKey = in_array(SysSearch::key(), [
 $Db->orderBy($tb_weixin . '.' . $orderKey, SysSearch::order());
 ```
 
-建表规范
---------
+## 建表规范
 
 -   数据类型尽量用数字类型，数字类型的比字符类型的要快很多，比如使用INT
     UNSIGNED存储IP

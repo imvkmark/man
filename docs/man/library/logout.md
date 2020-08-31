@@ -1,5 +1,4 @@
-logout
-===
+# logout
 
 退出当前登录的Shell
 

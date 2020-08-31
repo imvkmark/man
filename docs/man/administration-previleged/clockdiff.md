@@ -1,5 +1,4 @@
-clockdiff
-===
+# clockdiff
 
 检测两台linux主机的时间差
 

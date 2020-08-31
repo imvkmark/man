@@ -1,5 +1,4 @@
-zipinfo
-===
+# zipinfo
 
 用来列出压缩文件信息
 

@@ -1,5 +1,4 @@
-squid
-===
+# squid
 
 squid服务器守护进程
 

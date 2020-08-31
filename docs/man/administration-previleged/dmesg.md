@@ -1,5 +1,4 @@
-dmesg
-===
+# dmesg
 
 显示Linux系统启动信息
 

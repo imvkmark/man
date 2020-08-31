@@ -1,5 +1,4 @@
-rpmdb
-===
+# rpmdb
 
 初始化和重建RPM数据库
 

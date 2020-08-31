@@ -1,5 +1,4 @@
-rpmbuild
-===
+# rpmbuild
 
 创建RPM的二进制软件包和源码软件包
 

@@ -1,5 +1,4 @@
-rcconf
-===
+# rcconf
 
 Debian Linux下的运行等级服务配置工具
 

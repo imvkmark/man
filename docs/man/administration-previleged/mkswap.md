@@ -1,5 +1,4 @@
-mkswap
-===
+# mkswap
 
 建立和设置SWAP交换分区
 

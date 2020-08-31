@@ -1,5 +1,4 @@
-rpmverify
-===
+# rpmverify
 
 验证已安装的RPM软件包的正确性
 

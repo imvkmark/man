@@ -1,5 +1,4 @@
-netstat
-===
+# netstat
 
 查看Linux中网络系统状态信息
 

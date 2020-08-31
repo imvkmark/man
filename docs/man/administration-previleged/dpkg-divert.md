@@ -1,5 +1,4 @@
-dpkg-divert
-===
+# dpkg-divert
 
 Debian Linux中创建并管理一个转向列表
 

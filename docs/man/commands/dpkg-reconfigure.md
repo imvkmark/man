@@ -1,5 +1,4 @@
-dpkg-reconfigure
-===
+# dpkg-reconfigure
 
 Debian Linux中重新配制一个已经安装的软件包
 

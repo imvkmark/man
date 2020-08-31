@@ -1,5 +1,4 @@
-dpkg-trigger
-===
+# dpkg-trigger
 
 Debian Linux下的软件包触发器
 

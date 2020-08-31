@@ -1,5 +1,4 @@
-apt-get
-===
+# apt-get
 
 Debian Linux发行版中的APT软件包管理工具
 

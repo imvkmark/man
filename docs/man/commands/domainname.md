@@ -1,5 +1,4 @@
-domainname
-===
+# domainname
 
 显示和设置系统的NIS域名
 

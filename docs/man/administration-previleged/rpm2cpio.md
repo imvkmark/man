@@ -1,5 +1,4 @@
-rpm2cpio
-===
+# rpm2cpio
 
 将RPM软件包转换为cpio格式的文件
 

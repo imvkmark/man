@@ -1,5 +1,4 @@
-partprobe
-===
+# partprobe
 
 不重启的情况下重读分区
 

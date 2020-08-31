@@ -1,5 +1,4 @@
-lftpget
-===
+# lftpget
 
 调用lftp指令下载指定的文件
 
