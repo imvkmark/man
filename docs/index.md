@@ -24,5 +24,5 @@ features:
   - icon: /images/logo/nginx.png
     title: Nginx
     desc: 记录了 Nginx 一些常用的配置过程, 结合使用场景，涵盖 WEB 开发中常用的示例，以及对应的说明
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org) <br/> <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备13016276号-7</a>
 ---
