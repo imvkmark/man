@@ -7,7 +7,7 @@ export default defineConfig({
         port: 8001,
     },
     logo: '/images/icon.png',
-    chunks: ['vendors', 'umi'],
+    chunks: ['umi'],
     chainWebpack: function(config, { webpack }) {
         config.merge({
             optimization: {
