@@ -98,7 +98,6 @@ export default defineConfig({
                 { title: 'Project', path: '/poppy/project' },
                 { title: 'Code Review', path: '/poppy/code-review' },
             ],
-        },
-        { title: 'React', path: '/react' },
+        }
     ],
 });
