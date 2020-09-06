@@ -4,6 +4,7 @@
 
 购买/生成 SSL 证书，可以使用免费的证书，比如：[Let's Encrypt，免费好用的 HTTPS 证书](https://imququ.com/post/letsencrypt-certificate.html) 。
 
+
 ```conf
 # 配置 HTTPS
 
@@ -12,13 +13,13 @@ server {
     listen       80;
 
     # 配置域名
-    server_name www.xxoo.com xxoo.com;
+    server_name foo.com;
 
     # 添加 STS, 并让所有子域支持, 开启需慎重
     add_header strict-transport-security 'max-age=31536000; includeSubDomains; preload';
 
     # 配置让这些 HTTP 的访问全部 301 重定向到 HTTPS 的
-    rewrite ^(.*) https://www.xxoo.com$1 permanent;
+    return 301 https://foo.com$request_uri;
 }
 
 # 配置 HTTPS
@@ -27,7 +28,7 @@ server {
     server_name www.xxoo.com xxoo.com;
 
     # https默认端口
-    listen 443;
+    listen 443 ssl;
 
     # 添加STS, 并让所有子域支持, 开启需慎重
     add_header strict-transport-security 'max-age=31536000; includeSubDomains; preload';
@@ -43,7 +44,7 @@ server {
 
 > 注意，这里证书的格式是 `.crt` 的。
 
-### 配置后的访问规则
+## 配置后的访问规则
 
 输入链接 | 最终访问链接
 --- | ---
@@ -53,6 +54,10 @@ http://xxoo.com | https://www.xxoo.com
 https://www.xxoo.com | -（原链接不变）
 https://xxoo.com/500 | https://www.xxoo.com/500
 
-### 强烈推荐
+## 强烈推荐
 
 使用 <https://github.com/Neilpang/acme.sh> 支持泛域名证书申请了，好赞。
+
+## 参考链接
+- [Redirect HTTP to HTTPS in Nginx](https://serversforhackers.com/c/redirect-http-to-https-nginx)
+- [How to force or redirect to SSL in nginx?](https://serverfault.com/questions/250476/how-to-force-or-redirect-to-ssl-in-nginx)
