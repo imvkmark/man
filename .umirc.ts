@@ -4,7 +4,7 @@ export default defineConfig({
     title: 'Wulicode - Man',
     mode: 'site',
     devServer: {
-        port: 8002,
+        port: 8003,
     },
     nodeModulesTransform: {
         type: 'none',
