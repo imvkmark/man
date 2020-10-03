@@ -23,7 +23,36 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org) <br/> <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备13016276号-7</a>
 ---
 
-# Linux man 命令后面的数字含义及作用
+# Man 文档
+
+访问地址 : https://man.wulicode.com/
+
+本项目基于 dumi 项目生成文档, GitHub : https://github.com/imvkmark/wuli-man, 欢迎大家提交 Pr, 助本项目发展的更好
+
+
+## 本地运行
+
+```
+# clone project 
+$ git clone {project-url}
+
+# install dependencies
+$ yarn
+
+# start dev server
+$ yarn start
+
+# build
+$ yarn build
+```
+
+## Thanks to
+- dumi
+- https://wangchujiang.com/linux-command/
+- https://www.die.net/
+
+
+## Linux man 命令后面的数字含义及作用
 
 Linux 的 man 很强大，该手册分成很多 section，使用 man 时可以指定不同的 section 来浏览，各个 section 意义如下：
 
@@ -56,16 +85,3 @@ Linux 的 man 很强大，该手册分成很多 section，使用 man 时可以�
     其他命令
 ```
 这里根据 https://www.die.net/ 进行 man 命令的区分, 以便这个项目发展的更好
-
-## 格式说明
-
-格式替换
-
-`-a` 
-
-说明
-
-```
-(^(-[A-Za-z-\/]*\s{0,1}(<.*?>)?)\s*((--[a-zA-Z-=]*)?(<.*?>)?))(\s*)(#\s*)?(.*)?\n?
-`\2` `\4` \n\n \9 \n\n
-```

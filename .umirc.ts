@@ -25,5 +25,6 @@ export default defineConfig({
         { title: '其他', path: '/other' },
         { title: '软件', path: '/software' },
         { title: '系统', path: '/os' },
+        { title: 'Github', path: 'https://github.com/imvkmark/wuli-man' },
     ],
 });
