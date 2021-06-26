@@ -1,11 +1,8 @@
 # yum
 
-基于RPM的软件包管理器
+**yum 命令 (Yellowdog Updater Modified)** 是在 Fedora 和 RedHat 以及 SUSE 中基于[rpm](http://man.linuxde.net/rpm)的软件包管理器，它可以使系统管理人员交互和自动化地更细与管理 RPM 软件包，能够从指定的服务器自动下载 RPM 包并且安装，可以自动处理依赖性关系，并且一次安装所有依赖的软体包，无须繁琐地一次次下载、安装。
 
-
-**yum命令** 是在Fedora和RedHat以及SUSE中基于rpm的软件包管理器，它可以使系统管理人员交互和自动化地更新与管理RPM软件包，能够从指定的服务器自动下载RPM包并且安装，可以自动处理依赖性关系，并且一次安装所有依赖的软体包，无须繁琐地一次次下载、安装。
-
-yum提供了查找、安装、删除某一个、一组甚至全部软件包的命令，而且命令简洁而又好记。
+yum 提供了查找、安装、删除某一个、一组甚至全部软件包的命令，而且命令简洁而又好记。
 
 ## 语法
 
@@ -49,9 +46,9 @@ deplist：显示rpm软件包的所有依赖关系。
 
 部分常用的命令包括：
 
-*   自动搜索最快镜像插件：`yum install yum-fastestmirror`
-*   安装yum图形窗口插件：`yum install yumex`
-*   查看可能批量安装的列表：`yum grouplist`
+-   自动搜索最快镜像插件：`yum install yum-fastestmirror`
+-   安装 yum 图形窗口插件：`yum install yumex`
+-   查看可能批量安装的列表：`yum grouplist`
 
 **安装**
 
@@ -122,6 +119,3 @@ LANG=C # 原始语言
 LANG=zh_CN.utf8 # 切换到中文
 yum groupinstall "Chinese Support" # 添加中文语言支持
 ```
-
-
-

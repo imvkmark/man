@@ -503,4 +503,7 @@ $ curl --trace - https://www.example.com
 curl ipecho.net/plain
 ```
 
-
+**Curl 模拟内网机器进行数据转发**
+```
+curl -v --resolve www.domain.com:9443:10.30.109.134 https://www.domain.com/api/info
+```
