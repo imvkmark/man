@@ -3,7 +3,7 @@
 显示每个进程的栈跟踪
 
 
-**pstack命令** 可显示每个进程的栈跟踪。<kbd>pstack</kbd> 命令必须由相应进程的属主或 <tt>root</tt> 运行。可以使用 <kbd>pstack</kbd> 来确定进程挂起的位置。此命令允许使用的唯一选项是要检查的进程的 <tt>PID</tt>。
+**pstack命令** 可显示每个进程的栈跟踪。`pstack` 命令必须由相应进程的属主或 `root` 运行。可以使用 `pstack` 来确定进程挂起的位置。此命令允许使用的唯一选项是要检查的进程的 `PID`
 
 命令软件包下载地址：https://packages.debian.org/sid/pstack
 

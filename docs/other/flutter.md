@@ -117,5 +117,5 @@ Upgrade your copy of Flutter.
 List or switch flutter versions.
 
 
-Run "flutter help <command>" for more information about a command.
+Run `flutter help <command>` for more information about a command.
 Run "flutter help -v" for verbose help output, including less commonly used options.

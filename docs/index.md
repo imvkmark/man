@@ -1,28 +1,3 @@
----
-hero:
-    title: WuliCode Man 知识库
-features:
-    - icon: /images/logo/command.png
-      title: 普通的命令
-    - icon: /images/logo/system.png
-      title: 系统调用
-    - icon: /images/logo/library.png
-      title: 库函数
-    - icon: /images/logo/files.png
-      title: 特殊文件
-    - icon: /images/logo/format.png
-      title: 文件的格式
-    - icon: /images/logo/games.png
-      title: 游戏
-    - icon: /images/logo/macro.png
-      title: 附件和变量
-    - icon: /images/logo/system.png
-      title: 系统管理命令
-    - icon: /images/logo/other.png
-      title: 其他
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org) <br/> <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备13016276号-7</a>
----
-
 # Man 文档
 
 访问地址 : https://man.wulicode.com/
@@ -47,7 +22,6 @@ $ yarn build
 ```
 
 ## Thanks to
-- dumi
 - https://wangchujiang.com/linux-command/
 - https://www.die.net/
 
