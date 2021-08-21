@@ -10,7 +10,6 @@ module.exports = {
 		displayAllHeaders: true,
 		smoothScroll: true,
 	},
-	dest: "public",
 	plugins: [
 		[
 			"vuepress-plugin-auto-sidebar",
