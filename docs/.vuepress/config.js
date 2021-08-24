@@ -12,9 +12,16 @@ module.exports = {
 	},
 	plugins: [
 		[
-			"vuepress-plugin-auto-sidebar",
+			"@vuepress/docsearch",
 			{
-				// options
+				apiKey: "eee6e259e4f1bf8fda4e0111ec2c7bd4",
+				indexName: "man",
+				appId: "SXPLIEYR2X",
+				locales: {
+					"/": {
+						placeholder: "Search",
+					},
+				},
 			},
 		],
 	],
