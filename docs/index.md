@@ -1,36 +1,38 @@
-# Man 文档
+---
+home: true
+title: Man 查询手册
+heroImage: images/linux.png
+tagline: null
+footer: MIT Licensed | Copyright © 2018-present wulicode.com
+---
+
+# Man 文档 @ wulicode
 
 访问地址 : https://man.wulicode.com/
-
-本项目基于 dumi 项目生成文档, GitHub : https://github.com/imvkmark/wuli-man, 欢迎大家提交 Pr, 助本项目发展的更好
-
+github : https://github.com/imvkmark/man/
+欢迎大家提交 pr, 为大家提供一个实用的工具尽一份力量
 
 ## 本地运行
 
 ```
-# clone project 
+# clone project
 $ git clone {project-url}
 
 # install dependencies
 $ yarn
 
 # start dev server
-$ yarn start
+$ yarn docs:dev
 
 # build
-$ yarn build
+$ yarn docs:build
 ```
-
-## Thanks to
-- https://wangchujiang.com/linux-command/
-- https://www.die.net/
-
 
 ## Linux man 命令后面的数字含义及作用
 
 Linux 的 man 很强大，该手册分成很多 section，使用 man 时可以指定不同的 section 来浏览，各个 section 意义如下：
 
-```
+```js:no-line-numbers
 1 - commands
     普通的命令
 
@@ -42,7 +44,7 @@ Linux 的 man 很强大，该手册分成很多 section，使用 man 时可以�
 
 4 - special files
     特殊文件,也就是/dev 下的各种设备文件
-    
+
 5 - file formats and convertions
     指文件的格式,比如 passwd, 就会说明这个文件中各个字段的含义
 
@@ -58,4 +60,11 @@ Linux 的 man 很强大，该手册分成很多 section，使用 man 时可以�
 9 - 其他
     其他命令
 ```
-这里根据 https://www.die.net/ 进行 man 命令的区分, 以便这个项目发展的更好
+
+这里根据 https://www.die.net/ 进行 man 命令的区分
+
+## Thanks To :
+
+-   [vuepress@next](https://v2.vuepress.vuejs.org/zh/) - Vue 驱动的静态网站生成器
+-   https://wangchujiang.com/linux-command/
+-   https://www.die.net/

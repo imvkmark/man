@@ -11,18 +11,18 @@ flutter <command> [arguments]
 ```sh
 # Create a new Flutter project in the specified directory.
 flutter create <output directory>
-    
+
 # Run your Flutter application on an attached device or in an emulator.
 flutter run [options]
 ```
 
-## Usage: 
+## Usage:
 
 **Global options:**
 
-`-h, --help`                  
+`-h, --help`  
 Print this usage information.
-`-v, --verbose`               
+`-v, --verbose`  
 Noisy logging, including all shell commands executed.
 If used with `--help`, shows hidden options.
 
@@ -36,7 +36,7 @@ Suppress analytics reporting when this command runs.
 Captures a bug report file to submit to the Flutter team.
 Contains local paths, device identifiers, and log snippets.
 
-`--packages`              
+`--packages`  
 Path to your ".packages" file.(required, since the current directory does not contain a ".packages" file)
 
 **Available commands:**
@@ -115,7 +115,6 @@ Upgrade your copy of Flutter.
 
 `version`
 List or switch flutter versions.
-
 
 Run `flutter help <command>` for more information about a command.
 Run "flutter help -v" for verbose help output, including less commonly used options.

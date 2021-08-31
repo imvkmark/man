@@ -10,6 +10,11 @@ module.exports = {
 		displayAllHeaders: true,
 		smoothScroll: true,
 	},
+	markdown: {
+		code: {
+			lineNumbers: false,
+		},
+	},
 	plugins: [
 		[
 			"@vuepress/docsearch",

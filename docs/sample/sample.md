@@ -19,11 +19,10 @@ du -h --max-depth=1
 
 ## 选项：
 
-`-o`, `--option`, 
+`-o`, `--option`,
 两个参数的写法
 
 `--option <option>`
 参数带有选项的写法
 
 ## 参数
-

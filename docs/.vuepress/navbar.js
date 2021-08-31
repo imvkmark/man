@@ -11,10 +11,11 @@ module.exports = [
 	{ text: "软件", link: "/software/nginx.md" },
 	{ text: "系统", link: "/os" },
 	{
-		text: "其他",
+		text: "Github",
+		link: "https://github.com/imvkmark/man",
 		children: [
-			{ text: "Github", link: "https://github.com/imvkmark/wuli-man" },
-			{ text: "Nvte", link: "https://github.com/imvkmark/nvte" },
+			{ text: "Man", link: "https://github.com/imvkmark/man" },
+			{ text: "Note", link: "https://github.com/imvkmark/note" },
 		],
 	},
 ];

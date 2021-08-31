@@ -1,6 +1,6 @@
 # ack
 
-比grep好用的文本搜索工具
+比 grep 好用的文本搜索工具
 
 ## 安装
 
@@ -13,7 +13,7 @@ apk install ack
 
 ## 参数
 
-这些参数在linux上的适用频率是相当高的，尤其是你用vim做为IDE的话
+这些参数在 linux 上的适用频率是相当高的，尤其是你用 vim 做为 IDE 的话
 
 ```
 -c(统计)/ -i(忽略大小)/ -h(不显示名称)/
@@ -22,7 +22,7 @@ apk install ack
 
 ## 特点
 
-ack官网列出了这工具的5大卖点：
+ack 官网列出了这工具的 5 大卖点：
 
 1. 速度非常快,因为它只搜索有意义的东西。
 2. 更友好的搜索，忽略那些不是你源码的东西。
@@ -30,7 +30,7 @@ ack官网列出了这工具的5大卖点：
 4. 非常轻便，移植性好。
 5. 免费且开源
 
-## 实例  
+## 实例
 
 在记忆的时候大体上可以分为这几个部分：
 
@@ -38,9 +38,9 @@ ack官网列出了这工具的5大卖点：
 > Search output 搜索结果处理  
 > File presentation 文件展示  
 > File finding 文件查找  
-> File inclusion/exclusion 文件过滤  
+> File inclusion/exclusion 文件过滤
 
-grep常用操作
+grep 常用操作
 
 ```
 grep -r 'hello_world' # 简单用法
@@ -62,7 +62,7 @@ ack-grep -Q 'hello*'
 
 ### Search File
 
-对搜索结果进行处理，比如只显示一个文件的一个匹配项，或者xxx
+对搜索结果进行处理，比如只显示一个文件的一个匹配项，或者 xxx
 
 ```
 ack-grep --line=1       # 输出所有文件第二行
@@ -81,7 +81,8 @@ ack-grep hello --nocolor        # 不对匹配字符着色
 ```
 
 ### File finding
-没错，它可以查找文件，以省去你要不断的结合find和grep的麻烦，虽然在linux的思想是一个工具做好一件事。
+
+没错，它可以查找文件，以省去你要不断的结合 find 和 grep 的麻烦，虽然在 linux 的思想是一个工具做好一件事。
 
 ```
 ack-grep -f hello.py     # 查找全匹配文件
@@ -100,4 +101,4 @@ ack-grep -G hello.py$ hello   # 查找匹配正则的文件
 
 ## 参考资料
 
-- [ack官网](https://beyondgrep.com/)
+-   [ack 官网](https://beyondgrep.com/)
