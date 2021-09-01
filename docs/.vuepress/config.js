@@ -24,7 +24,7 @@ module.exports = {
 				appId: "SXPLIEYR2X",
 				locales: {
 					"/": {
-						placeholder: "Search",
+						placeholder: "搜索",
 					},
 				},
 			},
