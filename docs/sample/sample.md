@@ -1,14 +1,28 @@
-# man - sample 写法例子
+# sample 写法例子
 
-这里写简要描述
+> 这里写简要描述
 
-## 语法
-
-这里是语法. 全部的语法
+如果有更多的描述写在这里
 
 ```
-du [-abcDhHklmsSx] [-L <符号连接>][-X <文件>][--block-size][--exclude=<目录或文件>] [--max-depth=<目录层数>][--help][--version][目录或文件]
+# 语法, 根据实际显示长度换行
+du [-abcDhHklmsSx] [-L <符号连接>][-X <文件>][--block-size][--exclude=<目录或文件>]
+    [--max-depth=<目录层数>][--help][--version][目录或文件]
 ```
+
+## 选项 & 参数
+
+**选项**
+
+`-o`, `--option`
+
+两个选项的写法
+
+`--option <option>`
+
+选项带有参数的说明
+
+**参数**
 
 ## 常用命令
 
@@ -16,13 +30,3 @@ du [-abcDhHklmsSx] [-L <符号连接>][-X <文件>][--block-size][--exclude=<目
 # 查看文件夹的大小
 du -h --max-depth=1
 ```
-
-## 选项：
-
-`-o`, `--option`,
-两个参数的写法
-
-`--option <option>`
-参数带有选项的写法
-
-## 参数
