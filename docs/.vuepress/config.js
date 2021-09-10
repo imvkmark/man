@@ -19,9 +19,9 @@ module.exports = {
 		[
 			"@vuepress/docsearch",
 			{
-				apiKey: "eee6e259e4f1bf8fda4e0111ec2c7bd4",
+				apiKey: "9addc1d8ed38b88663d469a86e4c4f56",
 				indexName: "man",
-				appId: "SXPLIEYR2X",
+				appId: "RIQA6JWBXJ",
 				locales: {
 					"/": {
 						placeholder: "搜索",
