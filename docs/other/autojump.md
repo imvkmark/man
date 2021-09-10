@@ -1,4 +1,4 @@
-# man - autojump(1)
+# autojump
 
 autojump - 文件系统快速导航工具
 

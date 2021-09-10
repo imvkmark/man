@@ -1,4 +1,4 @@
-# man - flutter(9)
+# flutter
 
 Manage your Flutter app development.
 

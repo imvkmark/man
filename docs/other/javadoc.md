@@ -1,4 +1,4 @@
-# man - javadoc(9)
+# javadoc
 
 用法:
     javadoc [options] [packagenames] [sourcefiles] [@files]

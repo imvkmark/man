@@ -24,9 +24,13 @@ du [-abcDhHklmsSx] [-L <符号连接>][-X <文件>][--block-size][--exclude=<目
 
 **参数**
 
-## 常用命令
+## 实例 & 常用
 
 ```
 # 查看文件夹的大小
 du -h --max-depth=1
 ```
+
+## 扩展阅读
+
+- [Aliyun 盘挂载/扩容](https://note.wulicode.com/os/centos/aliyun-mount-disk.html)

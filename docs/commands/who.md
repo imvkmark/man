@@ -1,32 +1,13 @@
-# man - who(1)
+# who
 
-
- who - 显示当前所有登陆用户的信息
- 
-
-## 语法
+显示当前所有登陆用户的信息
 
 ```
 who [OPTION]... [ FILE | ARG1 ARG2 ]
 ```
 
-当没有给出非选项参数时，按以下字段顺序为每个当前用户打印信息：登录用户名称，终端信息，登录时间，远程主机或X display。
+当没有给出非选项参数时，按以下字段顺序为每个当前用户打印信息：登录用户名称，终端信息，登录时间，远程主机或 X display。
 当用户执行 `who am i` 时，只显示运行该命令的用户的信息。
-
-## 示例
-
-```
-$ who
-duoli    console  May 15 18:43 
-duoli    ttys000  May 25 23:43 
-
-$ who -q
-duoli    duoli    
-
-$ who -T
-duoli    - console  May 15 18:43 
-duoli    + ttys000  May 25 23:43 
-```
 
 ## 选项
 
@@ -69,12 +50,13 @@ duoli    + ttys000  May 25 23:43
 
 `-T, -w`, `--mesg`, `--message`, `--writable`
 添加用户信息的状态(+, -, ?)
+
 > `-w` mac 系统不存在
 
 `-u`, `--users`
 显示登录的用户
 
-`--help` 
+`--help`
 帮助
 
 `--version`
@@ -82,7 +64,22 @@ duoli    + ttys000  May 25 23:43
 
 指定 `file` 代替默认的 `/var/run/utmp` 、`/etc/utmp` ；通常使用 `/var/log/wtmp` 作为参数用于查看过去登陆系统的用户.
 
-If ARG1 ARG2 given, -m presumed: 'am i'    or  'mom  likes'  are usual.
+If ARG1 ARG2 given, -m presumed: 'am i' or 'mom likes' are usual.
+
+## 实例
+
+```
+$ who
+duoli    console  May 15 18:43
+duoli    ttys000  May 25 23:43
+
+$ who -q
+duoli    duoli
+
+$ who -T
+duoli    - console  May 15 18:43
+duoli    + ttys000  May 25 23:43
+```
 
 ## 注意
 

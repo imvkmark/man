@@ -1,33 +1,35 @@
 # man - fdisk(8)
 
+> Linux 分区表操作工具软件, 查看磁盘使用情况和磁盘分区
 
-fdisk - Linux分区表操作工具软件
+**fdisk 命令** 用于观察硬盘实体使用情况，也可对硬盘分区。它采用传统的问答式界面，而非类似 DOS fdisk 的 cfdisk 互动式操作界面，因此在使用上较为不便，但功能却丝毫不打折扣。
 
-### 总览
 ```
 fdisk [-u]设备名
 fdisk -l [-u] [设备名 ...]
 fdisk -s分区 ...
-fdisk -v  
+fdisk -v
 ```
 
-### 描述
-硬盘可以被分成一个或多个逻辑磁盘，称为分区。 这些分区信息都存放在硬盘0扇区的 分区表中。
+## 描述
+
+硬盘可以被分成一个或多个逻辑磁盘，称为分区。 这些分区信息都存放在硬盘 0 扇区的 分区表中。
 
 在 BSD 风格中，分区被称为“磁盘片”和“磁盘标签”
 
-Linux 至少需要一个分区，即用做它的 root 文件系统。 Linux 可以使用交换文件和/或交换分区，交换分区更有效。因此，通常用户会创建第二个 Linux 分区供交换分区使用。在 Intel 兼容的硬件上，启动系统的 BIOS 往往只能访问 1024 柱面之前的硬盘。因此，使用大硬盘的用户通常创建第三个只有几兆大小的小分区，通常用来装配在 /boot ，用来存放内核映象和一些其它启动时需要的附属文件，所以应确保此分区必须是在BIOS可访问的部分。出于安全方面的考虑、管理方面的原因、备份的需要或为了某些测试，也可以将一个硬盘分成更多的分区使用。
+Linux 至少需要一个分区，即用做它的 root 文件系统。 Linux 可以使用交换文件和/或交换分区，交换分区更有效。因此，通常用户会创建第二个 Linux 分区供交换分区使用。在 Intel 兼容的硬件上，启动系统的 BIOS 往往只能访问 1024 柱面之前的硬盘。因此，使用大硬盘的用户通常创建第三个只有几兆大小的小分区，通常用来装配在 /boot ，用来存放内核映象和一些其它启动时需要的附属文件，所以应确保此分区必须是在 BIOS 可访问的部分。出于安全方面的考虑、管理方面的原因、备份的需要或为了某些测试，也可以将一个硬盘分成更多的分区使用。
 
 fdisk （以第一种形式调用）是一个以菜单问答形式出现的用来创建和修改分区的程序。它可以辩认 DOS 类型的分区表和 BSD 或 SUN 类型的磁盘标签。
 
-设备 通常是下列之一： 
- 
+设备 通常是下列之一：
+
 ```
 /dev/hda
 /dev/hdb
 /dev/sda
 /dev/sdb
 ```
+
 (/dev/hd[a-h] 指 IDE 硬盘，/dev/sd[a-p] 指 SCSI 硬盘， /dev/ed[a-d] 指 ESDI 硬盘，/dev/xd[ab] 指 XT 硬盘)。设备名指整个硬盘设备。
 
 分区 是在 设备名 后跟一个分区号。例如： /dev/hda1 是指系统在第一个 IDE 硬盘上的第一个分区。 IDE 硬盘可以最多创建 63 个分区，SCSI 可以创建 15 个。又见 /usr/src/linux/Documnetation/devices.txt。
@@ -42,7 +44,7 @@ fdisk （以第一种形式调用）是一个以菜单问答形式出现的用�
 
 如果可能， fdisk 会自动获得磁盘的几何结构。这不一定是磁盘的物理结构（当然，现在的磁盘没有真正的物理结构，同样也不能以简单的柱面/磁头/扇区的形式来描述），而是 MS-DOS 用来供分区表使用的几何结构。
 
-通常，缺省时这些都将工作得很好，而且，如果磁盘上只有一个 Linux 操作系统时也不会有任何问题。然而，如果磁盘上还有其它操作系统，那么，用其它操作系统的 fdisk 来生成其自身使用的至少一个分区是比较好的选择。当Linux启动的时侯，它会扫描分区表，并由此推出和其它共存操作系统友好合作所需的（伪）几何结构。
+通常，缺省时这些都将工作得很好，而且，如果磁盘上只有一个 Linux 操作系统时也不会有任何问题。然而，如果磁盘上还有其它操作系统，那么，用其它操作系统的 fdisk 来生成其自身使用的至少一个分区是比较好的选择。当 Linux 启动的时侯，它会扫描分区表，并由此推出和其它共存操作系统友好合作所需的（伪）几何结构。
 
 当打印一个分区表时，系统会对分区表进行一次一至性检查。这些检查会验证磁盘几何结构和物理地址的开始、结束、指向和标识，同时在柱面的边界检查分区的开始和结束。（除了第一个分区）
 
@@ -53,31 +55,60 @@ fdisk （以第一种形式调用）是一个以菜单问答形式出现的用�
 DOS6.x WARNING
 DOS6.x 的 FORMAT 命令会在分区的第一扇区的数据区查找一些信息，并认为这些信息比分区表中的信息更可靠。 DOS 的 FORMAT 命令认为 DOS 的 FDISK 命令会在分区变化时自动清除分区数据区的前 512 字节区域。 DOS 的 FORMAT 将查看这些额外的信息，甚至在给出了 /U 这个参数后也是如此。我们认为这是 DOS FORMAT 和 DOS FDISK 的臭虫。
 
-如果你使用 cfdisk 或 fdisk 更改了 DOS 分区表的条目，你必须同时使用 dd 命令将该分区的前512个字节清零，之后，你才能使用 DOS 的 FORMAT 命令对这个分区进行格式化。例如：如果你使用 cfdisk 去创建一个 DOS 分区表项目，即分区 /dev/hda1，然后（在退出 fdisk 或 cfdisk 后重启 Linux 使分区表合法化）你就有必要使用如下命令 “dd if=/dev/ero of=/dev/hda1 bs=512 count=1” 来将分区的前 512 个字节清零。
+如果你使用 cfdisk 或 fdisk 更改了 DOS 分区表的条目，你必须同时使用 dd 命令将该分区的前 512 个字节清零，之后，你才能使用 DOS 的 FORMAT 命令对这个分区进行格式化。例如：如果你使用 cfdisk 去创建一个 DOS 分区表项目，即分区 /dev/hda1，然后（在退出 fdisk 或 cfdisk 后重启 Linux 使分区表合法化）你就有必要使用如下命令 “dd if=/dev/ero of=/dev/hda1 bs=512 count=1” 来将分区的前 512 个字节清零。
 
 当你使用 dd 命令时请 务必万分小心 ， 由于任何小的打印错误都将造成磁盘数据的失效。
 
 最好你还是使用由操作系统指定的分区工具软件。例如，当你创建 DOS 分区时应使用 DOS FDISK，而创建 Linux 分区时则使用 Linux 的 fdisk 或 cfdisk。
 
-### 选项
+## 选项 & 参数
+
 `-b sectorsize`
-    Specify the sector size of the disk. Valid values are 512, 1024, 2048 or 4096. (Recent kernels know the sector size. Use this only on old kernels or to override the kernel's ideas.) Since util-linux-ng 2.17 fdisk differentiates between logical and physical sector size. This option changes both sector sizes to sectorsize.
+
+扇区大小(512、1024、2048 或 4096)
+
+Specify the sector size of the disk. Valid values are 512, 1024, 2048 or 4096. (Recent kernels know the sector size. Use this only on old kernels or to override the kernel's ideas.) Since util-linux-ng 2.17 fdisk differentiates between logical and physical sector size. This option changes both sector sizes to sectorsize.
+
 `-h`
-    Print help and then exit.
+
+打印此帮助文本
+
 `-c`
-    Switch off DOS-compatible mode. (Recommended)
+
+兼容模式：“dos”或“nondos”(默认)
+
+Switch off DOS-compatible mode. (Recommended)
+
 `-C cyls`
-    Specify the number of cylinders of the disk. I have no idea why anybody would want to do so.
+指定柱面数
+Specify the number of cylinders of the disk. I have no idea why anybody would want to do so.
+
 `-H heads`
-    Specify the number of heads of the disk. (Not the physical number, of course, but the number used for partition tables.) Reasonable values are 255 and 16.
+指定磁头数
+Specify the number of heads of the disk. (Not the physical number, of course, but the number used for partition tables.) Reasonable values are 255 and 16.
+
 `-S sects`
-    Specify the number of sectors per track of the disk. (Not the physical number, of course, but the number used for partition tables.) A reasonable value is 63.
+
+指定每个磁道的扇区数
+
+Specify the number of sectors per track of the disk. (Not the physical number, of course, but the number used for partition tables.) A reasonable value is 63.
+
 `-v`
+
 打印 fdisk 的版本信息并退出．
+
 `-l`
+
 列出指定设备的分区表信息并退出。如果没有给出设备，那么使用那些在 /proc/partitions （如果存在）提到的．
+
 `-u`
-以扇区数而不是以柱面数的形式显示分区表中各分区的信息． -s 分区 将分区的 大小 （单位为块）信息输出到标准输出
--s partition
+
+以扇区数而不是以柱面数的形式显示分区表中各分区的信息, 显示单位：“cylinders”(柱面)或“sectors”(扇区，默认)
+
+`-s partition`
+将分区的 大小 （单位为块）信息输出到标准输出
 The size of the partition (in blocks) is printed on the standard output.
 
+## 扩展阅读
+
+- [Aliyun 盘挂载/扩容](https://note.wulicode.com/os/centos/aliyun-mount-disk.html)
