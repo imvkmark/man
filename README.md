@@ -8,8 +8,10 @@ footer: MIT Licensed | Copyright © 2018-present wulicode.com
 
 # Man 文档 @ wulicode
 
-访问地址 : https://man.wulicode.com/
+访问地址 : https://wulicode.com/man/
+
 github : https://github.com/imvkmark/man/
+
 欢迎大家提交 pr, 为大家提供一个实用的工具尽一份力量
 
 ## 本地运行
