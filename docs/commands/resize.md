@@ -1,23 +1,24 @@
 # resize
 
-命令设置终端机视窗的大小
+设置终端机视窗的大小
 
-
-**resize命令** 命令设置终端机视窗的大小。执行resize指令可设置虚拟终端机的视窗大小。
-
-##  语法
+## 语法
 
 ```
-resize [-cu][-s <列数> <行数>]
+resize [ -u | -c ] [ -s [ row col ] ]
 ```
 
-##  选项
+## 选项
 
-```
--c 　就算用户环境并非C Shell，也用C Shell指令改变视窗大小。
--s <列数> <行数> 　设置终端机视窗的垂直高度和水平宽度。
--u 　就算用户环境并非Bourne Shell，也用Bourne Shell指令改变视窗大小。
-```
+`-c`
+就算用户环境并非 CShell，也用 CShell 指令改变视窗大小。
+
+`-s row col`
+设置终端机视窗的垂直高度和水平宽度。
+
+`-u`
+就算用户环境并非 BourneShell ，也用 BourneShell 指令改变视窗大小
+
 
 ## 实例
 
@@ -30,7 +31,6 @@ setenv COLUMNS '99';
 setenv LINES '34';
 unset noglob;
 ```
-
 
 使用 Bourne shell
 
@@ -46,6 +46,3 @@ export COLUMNS LINES;
 ```
 [root@localhost ~]# resize -s 80 160
 ```
-
-
-

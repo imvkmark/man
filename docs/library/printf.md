@@ -1,23 +1,12 @@
 # printf
 
-格式化并输出结果。
-
-## 目录
-
-- [bash内建命令](#内建命令)
-- [GNU coreutils中的命令](#外部命令)
-
-## 内建命令
-
-#### 概要
+格式化并输出结果
 
 ```
-printf [-v var] format [arguments]
+printf FORMAT [ARGUMENT]...
+printf OPTION
 ```
 
-#### 主要用途
-
-- 格式化参数并输出。
 
 ## 选项
 
@@ -79,8 +68,7 @@ printf "%(%F %T %z%n)T"
 
 ### 注意
 
-1. 该命令是bash内建命令，相关的帮助信息请查看`help`命令。
-
+1. 该命令是 bash 内建命令，相关的帮助信息请查看`help`命令。
 
 ## 外部命令
 
@@ -93,8 +81,7 @@ printf OPTION
 
 #### 主要用途
 
-- 格式化参数并输出。
-
+-   格式化参数并输出。
 
 ## 选项
 
@@ -175,14 +162,14 @@ value1
 2. 启动或关闭内建命令请查看`enable`命令，关于同名优先级的问题请查看`builtin`命令的例子部分的相关讨论。
 
 3. 我通过和`bug-bash@gnu.org`的交流，得到了关于这几个格式说明符`%b %q %(fmt)T`的解释：
-   > printf(1)中的%b格式说明符是printf(3)支持的格式之外增加的一个POSIX特性。
-   >
-   > %q和%T说明符是非标准的，并且不受所有独立实现的printf的支持。
-   
-   更多细节请参考链接：
-   - [POSIX printf](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/printf.html)
-   `APPLICATION USAGE`段落的第五节。
-   - [POSIX printf格式说明符](https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html)
-   的`Description`段落。
 
+    > printf(1)中的%b 格式说明符是 printf(3)支持的格式之外增加的一个 POSIX 特性。
+    >
+    > %q 和%T 说明符是非标准的，并且不受所有独立实现的 printf 的支持。
 
+    更多细节请参考链接：
+
+    - [POSIX printf](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/printf.html)
+      `APPLICATION USAGE`段落的第五节。
+    - [POSIX printf 格式说明符](https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html)
+      的`Description`段落。
