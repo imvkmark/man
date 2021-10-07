@@ -1,4 +1,4 @@
-# sample 写法例子
+# sample - 写法例子
 
 > 这里写简要描述
 
@@ -33,4 +33,4 @@ du -h --max-depth=1
 
 ## 扩展阅读
 
-- [Aliyun 盘挂载/扩容](https://note.wulicode.com/os/centos/aliyun-mount-disk.html)
+-   [Aliyun 盘挂载/扩容](https://note.wulicode.com/os/centos/aliyun-mount-disk.html)
