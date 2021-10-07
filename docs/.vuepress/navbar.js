@@ -12,7 +12,6 @@ module.exports = [
 	{ text: "系统", link: "/os" },
 	{
 		text: "Github",
-		link: "https://github.com/imvkmark/man",
 		children: [
 			{ text: "Man", link: "https://github.com/imvkmark/man" },
 			{ text: "Note", link: "https://github.com/imvkmark/note" },

@@ -6,7 +6,7 @@ tagline: null
 footer: MIT Licensed | Copyright © 2018-present wulicode.com
 ---
 
-# Man 文档 @ wulicode
+# Man @ wulicode
 
 访问地址 : https://wulicode.com/man/
 
