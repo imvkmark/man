@@ -10,11 +10,4 @@ module.exports = [
 	{ text: "其他", link: "/other/flutter.md" },
 	{ text: "软件", link: "/software/nginx.md" },
 	{ text: "系统", link: "/os" },
-	{
-		text: "Github",
-		children: [
-			{ text: "Man", link: "https://github.com/imvkmark/man" },
-			{ text: "Note", link: "https://github.com/imvkmark/note" },
-		],
-	},
 ];
