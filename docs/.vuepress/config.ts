@@ -18,6 +18,7 @@ module.exports = {
 		},
 	},
 	plugins: [
+		["vuepress-plugin-auto-sidebar", {}],
 		[
 			"@vuepress/docsearch",
 			{
