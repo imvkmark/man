@@ -33,4 +33,4 @@ du -h --max-depth=1
 
 ## 扩展阅读
 
--   [Aliyun 盘挂载/扩容](https://note.wulicode.com/os/centos/aliyun-mount-disk.html)
+-   [Aliyun 盘挂载/扩容](https://wulicode.com/note/os/centos/aliyun-mount-disk.html)
