@@ -10,6 +10,8 @@ du [-abcDhHklmsSx] [-L <符号连接>][-X <文件>][--block-size][--exclude=<目
     [--max-depth=<目录层数>][--help][--version][目录或文件]
 ```
 
+> 返回值: 如果有, 写在这里
+
 ## 选项 & 参数
 
 **选项**
