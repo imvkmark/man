@@ -11,6 +11,8 @@ module.exports = {
 		repo: "https://github.com/imvkmark/man",
 		displayAllHeaders: true,
 		smoothScroll: true,
+		docsBranch: "master",
+		docsDir: "docs",
 	},
 	markdown: {
 		code: {
